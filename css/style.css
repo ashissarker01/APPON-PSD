@@ -1,0 +1,1078 @@
+/* <-----------------ALL COMMON CSS START HERE---------------> */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/* <---------------------------------------------------ALL COMMON CSS END HERE-----------------------------------------------------------> */
+
+
+
+
+
+
+
+/* <----------------- FIRST  PART CSS START HERE---------------> */
+
+#first_part {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apponBG1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    padding-top: 0px;
+    padding-bottom: 125px;
+    position: relative;
+}
+
+
+#nav_button {
+    margin-left: 30px;
+    padding: 0px 20px;
+    background: #744fa0;
+    border-radius: 5px;
+    border: 10px solid #744fa0;
+    color: white;
+}
+
+.nav-item {
+    padding-left: 30px;
+    padding-top: 5x;
+    color: white;
+}
+
+.nav-item a {
+    color: white;
+    transition: .6s;
+    position: relative;
+}
+
+.nav-item a::after {
+    position: absolute;
+    content: '';
+    top: 35px;
+    left: 10px;
+    height: 2px;
+    width: 0px;
+    transition: .6s;
+    background: #744fa0;
+}
+
+.nav-item a:hover {
+    color: #744fa0;
+}
+
+.nav-item a:hover:after {
+    color: #744fa0;
+    width: 40px;
+}
+
+.nav_service a:hover:after {
+    color: #744fa0;
+    width: 55px;
+}
+
+.nav_screenshot a:hover:after {
+    color: #744fa0;
+    width: 85px;
+}
+
+.nav_contact a:hover:after {
+    color: #744fa0;
+    width: 55px;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 9999;
+}
+
+.appon_text {
+    padding-top: 235px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 56px;
+    right: 21px;
+    position: absolute;
+}
+
+.appon_text_2 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 32px;
+    position: absolute;
+    right: 27px;
+    top: 300px;
+}
+
+.appon_text_2::after {
+    position: absolute;
+    content: '';
+    top: 70px;
+    left: 160px;
+    height: 2px;
+    width: 200px;
+    transition: .6s;
+    background: #fff;
+}
+
+.appon_text_3 {
+    color: white;
+    font-size: 14px;
+    top: 400px;
+    right: 85px;
+    padding-left: 70px;
+    position: absolute;
+}
+
+.appon_buttton h3 {
+    font-size: 14px;
+    color: blue;
+}
+
+.appon_buttton h2 {
+    font-size: 18px;
+    color: blue;
+}
+
+#android_button {
+    height: 70px;
+    width: 190px;
+    position: absolute;
+    top: 500px;
+    right: 350px;
+    border-radius: 10px;
+    background: #f1f1f1;
+    border: 1px solid white;
+    transition: .4s;
+}
+
+#android_button:hover {
+    background: #744fa0;
+    border: 1px solid #744fa0;
+    color: white;
+}
+
+#apple_button {
+    height: 70px;
+    width: 190px;
+    position: absolute;
+    top: 500px;
+    right: 110px;
+    border-radius: 10px;
+    border: 1px solid white;
+    transition: .4s;
+}
+
+#apple_button:hover {
+    background: #744fa0;
+    border: 1px solid #744fa0;
+    color: white;
+}
+
+#apple_button:hover h2 {
+    color: white;
+}
+
+#apple_button:hover h3 {
+    color: white;
+}
+
+#android_button:hover h3 {
+    color: white;
+}
+
+#android_button:hover h2 {
+    color: white;
+}
+
+#apple_button h2 {
+    padding-left: 40px;
+    color: #353535;
+    font-size: 18px;
+}
+
+#apple_button h3 {
+    padding-left: 10px;
+    padding-top: 2px;
+    color: #353535;
+    font-size: 14px;
+}
+
+.logo_apple {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#android_button h2 {
+    padding-left: 40px;
+    color: #353535;
+    font-size: 18px;
+}
+
+#android_button h3 {
+    padding-left: 10px;
+    padding-top: 2px;
+    color: #353535;
+    font-size: 14px;
+}
+
+.logo_android {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* <----------------- FIRST PART CSS END HERE---------------> */
+
+
+/* <----------------- SECOND  PART CSS START HERE---------------> */
+#second_part {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.second_part_write {
+    width: 570px;
+}
+
+.second_part_write h3 {
+    padding: 55px 0px;
+    font-size: 24px;
+    text-transform: uppercase;
+
+
+}
+
+.second_part_write p {
+    font-size: 14px;
+    width: 523px;
+
+}
+
+.about_us_part {
+    position: relative;
+}
+
+.about_us_part::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50px;
+    background: #353535;
+    top: 110px;
+    right: 220px;
+}
+
+.about_us_part::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50px;
+    background: #353535;
+    top: 110px;
+    right: 300px;
+}
+
+.about_us_part h3::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 45px;
+    background: #353535;
+    top: 105px;
+    right: 300px;
+}
+
+.about_us_part h3::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 45px;
+    background: #353535;
+    top: 105px;
+    right: 225px;
+}
+
+.about_us_part img {
+    position: absolute;
+    bottom: 20px;
+    left: 50%px;
+    transform: translateX(-50%);
+    
+
+}
+
+/* <----------------- SECOND PART CSS END HERE---------------> */
+
+
+
+/* <----------------- THIRD  PART CSS START HERE---------------> */
+
+#third_part {
+    padding: 30px 0px;
+    background: #f1f1f1;
+}
+
+.logo_part_common {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.logo_part_common::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50px;
+    background: #353535;
+    top: 60px;
+    right: 200px;
+}
+
+.logo_part_common::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 50px;
+    background: #353535;
+    top: 60px;
+    right: 125px;
+}
+
+.logo_part_common h3::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 45px;
+    background: #353535;
+    top: 55px;
+    right: 130px;
+}
+
+.logo_part_common h3::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 45px;
+    background: #353535;
+    top: 55px;
+    right: 200px;
+}
+
+.phone_security {
+    position: relative;
+    display: flex;
+    margin-bottom: 60px;
+
+}
+.kalamala{
+    
+}
+.down_part {
+    top: -5px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.down_part h3 {
+    color: #353535;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.down_part p {
+    color: #777777;
+    font-size: 14px;
+
+}
+
+.down_part::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 270px;
+    background: #353535;
+    left: -40px;
+}
+
+.global .down_part::after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 270px;
+    background: #353535;
+    left: -40px;
+}
+
+.onlineshop .down_part::after {
+    position: absolute;
+    content: '';
+    height: px;
+    width: 0px;
+
+    left: -40px;
+}
+
+.for_hover:hover .down_part h3 {
+    color: #744fa0;
+}
+
+.for_hover:hover .down_part p {
+    color: #744fa0;
+}
+
+.for_hover:hover {
+    color: #744fa0;
+}
+
+.for_hover:hover .down_part::after {
+    background: #744fa0;
+    width: 370px;
+    transition: .4s;
+}
+
+.down_write_part h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    font-weight: 600;
+}
+
+.down_write_part p {
+    font-size: 14px;
+    padding: 15px 0px;
+}
+
+/* <----------------- THIRD PART CSS END HERE---------------> */
+
+/* <----------------- fourth  part  CSS START HERE---------------> */
+
+#fourth_part {
+    padding-top: 80px;
+
+    background: #fff;
+    position: relative;
+}
+
+.part_four h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* <----------------- FOURTH PART CSS END HERE---------------> */
+
+/* < SLIDER  PART CSS START HERE> */
+
+.slider {
+    height: 380px;
+    transition: .9s;
+    top: 50px;
+}
+
+.swiper-wrapper {
+    align-items: center;
+    transition: .9s;
+}
+
+.swiper-slide {
+    height: 340px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.swiper-slide img {
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.pic_slide_img-active {
+    transform: scale(1.4);
+    transition: .9s;
+    z-index: 999;
+}
+
+.swiper-button-next {
+    color: #ffffff00;
+
+}
+
+.swiper-button-prev {
+    color: #ffffff00;
+}
+
+/* <----------------- FOURTH PART CSS END HERE---------------> */
+
+/* <----------------- FIVE  PART CSS START HERE---------------> */
+#fifth_part {
+    padding-top: 130px;
+
+}
+
+
+#video_part {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/appon_video_pic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-bottom: 80px;
+
+}
+
+
+
+.play {
+    top: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    /* text-align: center; */
+    z-index: 999;
+
+}
+
+.ooovverlay {
+    background: rgba(0, 0, 0, 0.178);
+    height: 100px;
+    width: 100px;
+    z-index: 89;
+    top: 50%;
+    left: -50%;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+
+}
+
+
+.video_write h1 {
+    color: white;
+}
+
+.video_write p {
+    color: white;
+    padding: 0px 10px;
+}
+
+.video_write {
+    text-align: center;
+    height: 200px;
+    width: 555px;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+
+.video_of i {
+
+    font-size: 50px;
+    color: white;
+    z-index: 99999999;
+}
+
+/* <----------------- FIVE PART CSS END HERE---------------> */
+
+/* <----------------- SIXTH  PART CSS START HERE---------------> */
+#sixth_part {
+    padding-top: 80px 0px;
+    background: #fff;
+}
+.left_side_part{
+    -webkit-box-shadow: -4px 10px 62px -17px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 10px 62px -17px rgba(0,0,0,0.75);
+    box-shadow: -4px 10px 62px -17px rgba(0,0,0,0.75);
+    border-radius: 50px;
+}
+.top_part_start {
+    height: 65px;
+    width: 270px;
+    background: #f1f1f1;
+    position: relative;
+    transition: .5s;
+    border-radius: 3px;
+
+}
+
+.top_part_start h4 {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    top: 30%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.alada h4 {
+    text-align: center;
+    width: 270px;
+}
+
+.middle_part_start {
+    height: 160px;
+    width: 270px;
+    background: #fff;
+    position: relative;
+}
+
+.gulla {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    background: transparent;
+    top: 50%;
+    left: 28%;
+    border-radius: 50%;
+    border: 5px solid #f1f1f1;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+
+}
+
+.gulla h4 {
+    top: 10%;
+    position: absolute;
+    left: 60%;
+    transform: translateX(-100%);
+    font-size: 47px;
+    font-weight: 700;
+    color: #353535;
+}
+
+.gulla h5 {
+    top: 35%;
+    position: absolute;
+    left: 84%;
+    transform: translateX(-100%);
+    font-size: 18px;
+    font-weight: 700;
+    color: #353535;
+}
+
+.gulla p {
+    font-size: 15px;
+    font-weight: 700;
+    top: 60%;
+    left: 20px;
+    color: #555555;
+    position: absolute;
+
+}
+
+.down_part_start {
+    height: 230px;
+    width: 270px;
+    background: #f1f1f1;
+    padding: 30px 0px;
+    position: relative;
+}
+
+.down_part_start p {
+    text-align: center;
+}
+
+#common_btn {
+    height: 35px;
+    font-weight: 700;
+    width: 95px;
+    border-radius: 3px;
+    background: transparent;
+    border: 1px solid #353535;
+    color: #353535;
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-53%);
+}
+
+.left_side_part:hover .top_part_start {
+    background: #744fa0;
+    border-radius: 3px;
+    color: #fff;
+
+}
+
+.left_side_part:hover #common_btn {
+    background: #744fa0;
+
+    color: #fff;
+
+}
+
+/* <----------------- SIXTH PART CSS END HERE---------------> */
+
+/* <----------------- SEVEN  PART CSS START HERE---------------> */
+#seven_part {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+.left_beta {
+    height: 370px;
+    width: 370px;
+    padding-top: 85px;
+    position: relative;
+    transition: .6s;
+}
+
+.left_beta:hover .overlay_beta {
+    opacity: 1;
+    transition: .6s;
+    transform: scale(1, 1.1);
+    transform: translateY(-200px);
+}
+
+.left_beta:hover {
+    opacity: 1;
+    transition: .6s;
+    transform: scale(1, 1.1);
+    transform: translateY(-100px);
+}
+
+
+.left_beti {
+    height: 370px;
+    width: 370px;
+}
+
+.bedi_lekha {
+    height: 190px;
+    width: 370px;
+    background: #ffffff;
+}
+
+.bedi_lekha h3 {
+    font-size: 18px;
+    color: #353535;
+    font-weight: 700;
+    padding-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bedi_lekha h4 {
+    font-size: 15px;
+    color: #555555;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.bedi_lekha p {
+    line-height: 24px;
+    font-size: 14px;
+    color: #777777;
+    font-weight: 300;
+    padding: 0px 70px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.overlay_beta {
+    top: 285px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    background: #00000050;
+    border-radius: 5px;
+    transition: .6s;
+}
+
+.logo_facebook {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 100px;
+    color: #ffffff;
+}
+
+.twitter {
+    left: 160px;
+}
+
+.bebe {
+    left: 220px;
+}
+
+.left_beta i:hover {
+    color: #1da1f2;
+    transition: .6s;
+}
+
+.left_beta-active {
+    transform: scale(1.6);
+    transition: .9s;
+    z-index: 999;
+}
+
+/* <----------------- SEVEN PART CSS END HERE---------------> */
+
+/* <----------------- EIGHT  PART CSS START HERE---------------> */
+#part_eight {
+    padding-top: 160px;
+
+}
+
+.biggggg_background {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/apponkhatakolom_background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 495px;
+    position: relative;
+}
+
+.logo_part_common h3 {
+    font-size: 24px;
+}
+
+.pic_slide {
+    height: 150px;
+    width: 420px;
+    bottom: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pic_slide_img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.pic_slide_img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%px;
+}
+
+.bordrace {
+    border: 2px solid #744fa0;
+}
+
+.overlay_pic {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: #eeeeee6d;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .6s;
+}
+
+.overlay_pic2 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: #eeeeee6d;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .6s;
+}
+
+.overlay_pic3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background: #eeeeeea9;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .6s;
+}
+
+.amiaci:hover .overlay_pic {
+    opacity: 1;
+}
+
+.tumiaco:hover .overlay_pic2 {
+    opacity: 1;
+}
+
+.seoace:hover .overlay_pic3 {
+    opacity: 1;
+}
+
+.amiaci:hover {
+    transform: scale(1.4);
+    transition: .6s;
+}
+
+.tumiaco:hover {
+    transform: scale(1.4);
+    transition: .6s;
+}
+
+.seoace:hover {
+    transform: scale(1.4);
+    transition: .6s;
+}
+
+
+.box {
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    height: 200px;
+    width: 800px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    opacity: 1;
+}
+.box p{
+    font-size: 14px;
+    color: #777777;
+    padding: 30px 75px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 300;
+}
+.box h4{
+    font-size: 18px;
+    color: #777777;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 24px;
+    color: #353535;
+ 
+}
+.box h5{
+    font-size: 14px;
+    color: #555555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    line-height: 10px;
+    color: #353535;
+   
+ 
+}
+.shaph{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: #f1f1f1;
+    top: 199px;
+    left: 50%;
+    transform: translateX(-50%);
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+#slide_up_down {
+    cursor: pointer;
+}
+.iccon_paerryt{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* <----------------- EIGHT PART CSS END HERE---------------> */
+
+
+/* <----------------- NINE PART CSS START HERE---------------> */
+#part_nine {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: white;
+    position: relative;
+}
+
+#form_one {
+    height: 50px;
+    width: 370px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+#form_two {
+    height: 200px;
+    width: 1170px;
+    margin-top: 30px;
+    padding-top: 0px;
+    border-radius: 3px;
+
+}
+
+#submit_button {
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 35px;
+    width: 100px;
+    color: white;
+    background: #744fa0;
+    border-radius: 5px;
+}
+
+/* <----------------- EIGHT PART CSS END HERE---------------> */
+
+/*<-------------------- PART TEN START HEREE----------------->  */
+#part_ten {
+    padding: 35px 0px;
+    background: #353535;
+    position: relative;
+}
+
+.lolologo {
+    margin-left: 470px;
+
+
+}
+
+.icon_gula i {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    transition: .4s;
+}
+
+.icon_gula i:hover {
+    color: #1da1f2;
+}
+
+.write_wrire h5 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.write_wrire a{
+    color: #744fa0;
+}
+
+/*<-------------------- PART TEN END HEREE----------------->  */
